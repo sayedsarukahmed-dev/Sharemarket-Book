@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Share Market Mastery — For Beginners to Professionals</title>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#05070a">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Poppins:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="bookRoot" class="book-root">
+
+  <!-- Ambient ticker strip -->
+  <div class="ticker-strip" id="tickerStrip" aria-hidden="true"></div>
+
+  <!-- The book -->
+  <div class="book" id="book">
+    <div class="book-shadow"></div>
+
+    <div class="page-viewport" id="pageViewport">
+      <div class="page-flip-layer" id="flipLayer"></div>
+      <div class="page-current" id="pageCurrent"></div>
+    </div>
+
+    <!-- spine glow -->
+    <div class="book-spine"></div>
+  </div>
+
+  <!-- Bottom control dock -->
+  <div class="dock" id="dock">
+    <button class="dock-btn" id="btnToc" title="Chapters">
+      <svg viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h10"/></svg>
+      <span>Index</span>
+    </button>
+
+    <button class="dock-btn" id="btnPrev" title="Peeche">
+      <svg viewBox="0 0 24 24"><path d="M15 18l-6-6 6-6"/></svg>
+    </button>
+
+    <div class="page-indicator" id="pageIndicator">1 / 1</div>
+
+    <button class="dock-btn" id="btnNext" title="Aage">
+      <svg viewBox="0 0 24 24"><path d="M9 18l6-6-6-6"/></svg>
+    </button>
+
+    <div class="font-controls">
+      <button class="dock-btn small" id="btnFontDown" title="Chota font">A-</button>
+      <button class="dock-btn small" id="btnFontUp" title="Bada font">A+</button>
+    </div>
+  </div>
+
+  <!-- TOC Drawer -->
+  <div class="toc-overlay" id="tocOverlay">
+    <div class="toc-panel" id="tocPanel">
+      <div class="toc-head">
+        <div class="toc-brand">
+          <span class="brand-green">SHARE MARKET</span>
+          <span class="brand-red">MASTERY</span>
+        </div>
+        <button class="toc-close" id="tocClose">&times;</button>
+      </div>
+      <div class="toc-list" id="tocList"></div>
+    </div>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

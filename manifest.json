@@ -1,0 +1,17 @@
+{
+  "name": "Share Market Mastery - For Beginners to Professionals",
+  "short_name": "SM Mastery",
+  "description": "Sharemarket aur trading Hinglish mein seekho - beginners se professional tak, candlestick, indicators aur pro tricks ke saath.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#05070a",
+  "theme_color": "#05070a",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
